@@ -7,7 +7,7 @@
 // @downloadURL	https://raw.githubusercontent.com/al0rid4l/fkElonMusk/main/index.js
 // @homepage		https://github.com/al0rid4l/fkElonMusk
 // @grant       none
-// @version     1.1
+// @version     1.2
 // @author      al0rid4l
 // @license			GPLv3
 // @description 4/5/2023, 1:19:10 AM
