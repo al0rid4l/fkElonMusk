@@ -31,9 +31,8 @@ const bgStyle = size => `
 document.adoptedStyleSheets = [preloadStyle];
 window.addEventListener('DOMContentLoaded', () => {
 	// 还是会白一下...
-	const loadingXpath = document.evaluate('//*[@id="placeholder"]', document.body, null, XPathResult.ORDERED_NODE_SNAPSHOT_TYPE, null);
-	if (loadingXpath?.snapshotLength) {
-		const loadingEl = loadingXpath.snapshotItem(0);
+	const loadingEl = document.getElementById('placeholder');
+	if (loadingEl) {
 		loadingEl.innerHTML = '';
 		const blueBird = document.createElement('div');
 		blueBird.style.cssText = `
